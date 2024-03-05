@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100vw; */
+    scroll-behavior: smooth;
+}
+
+
+.body {}
+
+.test {
+    border: 2px red solid;
+}
+
+.button {
+    border: 0;
+}
+
+.hero {
+    width: 1491px;
+    width: 100%;
+    height: 800px;
+    background: url(./images2/house-bkg.png);
+}
+
+.hero header {
+    width: 1127.91px;
+    height: 48px;
+    margin-top: 24px;
+    margin-left: 40px;
+    padding: 0px 0.02px 0px 0px;
+
+}
+
+.hero nav {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 32px;
+
+}
+
+.hero nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.hero nav li {
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding: 0 12.38px 0 32px;
+    color: white;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.btn-group button {
+    padding: 12px 23.08px 12px 23.28px;
+    border-radius: 8px;
+    border: 5px;
+}
+
+.btn-group button:nth-child(1) {
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+    border-color: white;
+    border: solid 1px;
+}
+
+.btn-get {
+    background-color: #DDFF0E;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-con {
+    width: 781.81px;
+    height: 397px;
+    padding: 24px 0px 0px 0px;
+    margin-top: 217px;
+    margin-left: 112px;
+    ;
+}
+
+.hero-con>h1 {
+    font-family: Aeonik;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 102px;
+    letter-spacing: -2.25px;
+    text-align: left;
+    color: white;
+}
+
+
+/* code works weird over here */
+
+.unopa {
+    width: 730.81px;
+    height: 169px;
+    padding: 40px 108.81px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.unopa>p {
+    font-family: Aeonik;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.btn-group2 {
+    width: 312px;
+    height: 45px;
+    display: flex;
+    gap: 0;
+    /* align-items: center; */
+}
+
+.btn-group2 button:nth-child(1) {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: 0;
+
+}
+
+.btn-group2 button:nth-child(2) {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+
+
+}
+
+.sec-2 {
+    width: 1440px;
+    height: 715.2px;
+    margin: auto;
+}
+
+.sec-2>div {
+    width: 1222px;
+    height: 256px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 109px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+
+}
+
+.sec-2>div>div {
+    width: 320px;
+    padding: 64px 16px 0px 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec-2>div>div h4 {
+    margin-bottom: 24px;
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/* Code works strangely over here */
+
+.sec-2>div>div p {
+    margin-bottom: 20px;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+
+.img-group {
+    width: 1200px;
+    height: 176px;
+    padding: 2px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-div {
+    width: 240px;
+    height: 174px;
+    padding: 56px 32px 70px 32px;
+}
+
+.img-group>img {
+    height: 46px;
+}
+
+.sec-3 {
+    width: 1440px;
+    height: 1033.16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F7F1D0;
+    margin: auto;
+}
+
+.sec-3>h1 {
+    font-family: Segoe UI;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 101px;
+    /* letter-spacing: -2.25px; */
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 63px;
+    /* margin-left: 112px; */
+}
+
+.sec-3>div {
+    width: 1216px;
+    height: 561.66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-3>div>div {
+    width: 569.77px;
+    height: 537.66px;
+    padding: 0px 0px 62.66px 0px;
+}
+
+
+
+.protect {
+    width: 569.77px;
+    height: 273px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.protect>h5 {
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    margin: 8px 0px 8px 56px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.protect>p {
+    line-height: 16px;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin: 8px 0px 8px 56px;
+}
+
+
+.accordion>p {
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.san {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.btn-group3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 450px 0px 450px;
+    gap: 12px;
+}
+
+.get-battery {
+    width: 128px;
+    height: 64px;
+    padding: 20px 23.41px 23px 23.59px;
+    border-radius: 6px;
+    text-wrap: nowrap;
+    background-color: black;
+    color: white;
+}
+
+.learn-battery {
+    width: 176px;
+    height: 64px;
+    padding: 21px 21.9px 22px 22.1px;
+    border-radius: 6px;
+    color: black;
+    background: transparent;
+
+}
+
+.sec-4 {
+    width: 1440px;
+    height: 1033.16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec-4>h2 {
+    font-family: Segoe UI;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 101px;
+    letter-spacing: -2.25px;
+    text-align: left;
+}
+
+.sec-4>div {
+    width: 1216px;
+    height: 561.66px;
+    gap: 128px;
+    display: flex;
+    align-items: center;
+}
+
+.sec-4>div>div {
+    width: 569.77px;
+    height: 537.66px;
+    padding: 0px 0px 77.66px 0px;
+}
+
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.accordion-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 92px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    border: 0;
+    border-top: 1px solid #000;
+    cursor: pointer;
+}
+
+.active,
+.accordion-item:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 0 18px;
+
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.sec-5 {
+    width: 1440px;
+    height: 1160.5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D1E2ED;
+    margin: auto;
+}
+
+.sec-5>h1 {
+    font-family: Aeonik;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 101px;
+    letter-spacing: -2.25px;
+    text-align: left;
+}
+
+.sec-5>div {
+    width: 1152px;
+    height: 621px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-5>div>div {
+    width: 576px;
+    height: 621px
+}
+
+.blue-p>h3 {
+    margin-top: 43px;
+}
+
+.blue-b {
+    margin-top: 64px;
+}
+
+
+.sec-6 {
+    width: 1473px;
+    height: 1069.5px;
+    padding: 80px 112px 80px 112px;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.sec-6>h1 {
+    font-family: Segoe UI;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 101px;
+    letter-spacing: -2.25px;
+    text-align: left;
+}
+
+.sec-6>div {
+    width: 1249px;
+    height: 578px;
+    /* padding: 80px 112px 80px 112px; */
+    /* gap: 80px; */
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.tree {
+    width: 608px;
+    height: 578px;
+}
+
+.text-div {
+    width: 641px;
+    height: 578px;
+    padding: 56px;
+}
+
+.text-div p {
+    font-family: Aeonik;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mike-j {}
+
+footer {
+    width: 1440px;
+    height: 916.63px;
+    margin: auto;
+}
+
+.footer-div1>h1 {
+    font-family: Aeonik;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77px;
+    /* letter-spacing: -1.600000023841858px; */
+    text-align: center;
+}
+
+.footer-p {
+    width: 1440px;
+    height: 421.8px;
+    padding: 56px 32px 56px 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer-p>ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+
+}
+
+
+.footer-p>ul p {
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 23px 26.78px 23px 6.97px;
+}
+
+.footer-div2 {
+    width: 1440px;
+    height: 360px;
+    padding: 80px 0px 0px 0px;
+    color: white;
+    background-color: green;
+}
+
+.footer-div2>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    /* height: 134.83px; */
+    width: 100%;
+    padding: 64px 0px 40px 0px;
+}
+
+.footer-div2 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 24px;
+}
+
+
+.footer-div2 ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div3 {
+    width: 1440px;
+    height: 134.83px;
+    padding: 64px 20px 40px 20px;
+    /* color: white; */
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    color: white;
+}

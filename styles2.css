@@ -133,7 +133,6 @@
     height: 45px;
     display: flex;
     gap: 0;
-    /* align-items: center; */
 }
 
 .btn-group2 button:nth-child(1) {
@@ -141,6 +140,7 @@
     height: 100%;
     border-radius: 8px 0px 0px 8px;
     margin-right: 0;
+    border: 0;
 
 }
 
@@ -148,6 +148,7 @@
     width: 100%;
     height: 100%;
     border-radius: 0px 8px 8px 0px;
+    border: 0;
 
 
 }
@@ -356,6 +357,7 @@
     line-height: 101px;
     letter-spacing: -2.25px;
     text-align: left;
+    margin-bottom: 40px;
 }
 
 .sec-4>div {
@@ -370,6 +372,29 @@
     width: 569.77px;
     height: 537.66px;
     padding: 0px 0px 77.66px 0px;
+}
+
+.himage {
+    display: flex;
+    align-items: center;
+}
+
+.himage h3 {
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    padding: 10px;
+}
+
+.pimage {
+    margin-left: 50px;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
 
@@ -400,6 +425,25 @@
     background-color: #ccc;
 }
 
+.btn-group4 {
+    width: 1216px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-group4 button {
+
+    /* display: flex; */
+}
+
+/* .btn-group4 button:nth-child(1) {
+    margin-left: 450px;
+}
+
+/* .btn-group4 button:nth-child(2) {
+    margin-right: 450px;
+} */
 .panel {
     display: none;
     overflow: hidden;
@@ -485,7 +529,6 @@
 
 
 
-
 .tree {
     width: 608px;
     height: 578px;
@@ -495,6 +538,7 @@
     width: 641px;
     height: 578px;
     padding: 56px;
+    background-color: #EEEFE8;
 }
 
 .text-div p {
@@ -506,7 +550,9 @@
     text-align: left;
 }
 
-.mike-j {}
+.mike-j {
+    margin-top: 40px;
+}
 
 footer {
     width: 1440px;
